@@ -1,0 +1,5 @@
+site_name: table easy docs
+nav:
+  - Home: just a page.md
+  - About: about.md
+theme: dracula

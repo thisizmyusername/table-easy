@@ -177,3 +177,5 @@ cython_debug/
 
 
 pyrightconfig.json
+site/
+.obsidian/
