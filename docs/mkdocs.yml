@@ -1,4 +1,4 @@
-site_name: table easy docs
+site_name: TOS docs
 nav:
   - Home: index.md
   - FP: just a page.md
@@ -9,4 +9,6 @@ theme:
     scheme: slate
     primary: amber
     accent: lime
+  font:
+    text: JetBrains Mono
 
