@@ -1,4 +1,4 @@
-FROM python:3.12.9-alpine
+FROM python:3.12.9-alpine AS builder
 
 WORKDIR /docs
 
@@ -8,10 +8,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY mkdocs.yml .
 COPY docs/ ./docs
 
-RUN mkdocs build 
+RUN mkdocs build
 
-FROM nginx:latest
+FROM nginx:alpine
 
-copy site /usr/share/nginx/html/
-
-#CMD ["/bin/sh"]
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+COPY --from=builder docs/site /usr/share/nginx/html/

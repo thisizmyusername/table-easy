@@ -3,5 +3,5 @@ services:
   docs:
     build: ./docs
     ports:
-      - "8000:80"
+      - "80:80"
     restart: unless-stopped
