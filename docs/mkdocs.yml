@@ -2,7 +2,8 @@ site_name: table easy docs
 nav:
   - Home: index.md
   - FP: just a page.md
-theme: 
+theme:
+  logo: assets/icon.png
   name: material
   palette:
     scheme: slate
