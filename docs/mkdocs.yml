@@ -2,8 +2,12 @@ site_name: TOS docs
 nav:
   - Home: index.md
   - Business reqs: business requirements.md
+<<<<<<< HEAD
   - FP: just a page.md
   - Arch: architectural solutions.md
+=======
+  - FP: lists testing.md
+>>>>>>> 3a1ce03372baf7f84983df500e5a26b64e8022d5
 theme:
   logo: assets/icon.png
   name: material
