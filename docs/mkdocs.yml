@@ -2,7 +2,7 @@ site_name: TOS docs
 nav:
   - Home: index.md
   - Business reqs: business requirements.md
-  - FP: list testing.md
+  - FP: lists testing.md
 theme:
   logo: assets/icon.png
   name: material
