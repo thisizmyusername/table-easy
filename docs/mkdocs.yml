@@ -3,6 +3,7 @@ nav:
   - Home: index.md
   - Business reqs: business requirements.md
   - FP: just a page.md
+  - Arch: architectural solutions.md
 theme:
   logo: assets/icon.png
   name: material
